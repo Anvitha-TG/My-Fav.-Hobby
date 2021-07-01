@@ -1,0 +1,59 @@
+body{
+  text-align:center;
+  background-color: white;
+}
+
+img{
+  border-radius:50%;
+  width:200px;
+}
+
+p{
+  font-size:18px;
+  color:#6A1B9A;
+}
+
+h1{
+  text-shadow: 2px 2px #F8BBD0;
+  font-size:30px;
+  border:solid;
+  border-width:5px;
+}
+
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.links:hover{
+    background-color:lavender;
+}
+
+
+.links{
+    font-size: 20px;
+    color: blueviolet;
+    float: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: Dancing Script;
+}
+
+.menu{
+    list-style: none;
+    font-family: Dancing Script;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#hobby{
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+  background-repeat:no-repeat;
+}
